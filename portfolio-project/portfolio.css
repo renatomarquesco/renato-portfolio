@@ -88,6 +88,16 @@ nav a{
     text-transform: uppercase;
 }
 .screenshot{
-    border: 0.2px solid rgb(207, 205, 205);
+    border:none;
+    padding:20px;
 
+}
+
+.screenshot a:hover{
+    padding:40px;
+    transition: all;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.2s;
+    transition-duration: 1s;
+    opacity:0.5;
 }
