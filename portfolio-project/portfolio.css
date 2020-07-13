@@ -1,0 +1,29 @@
+nav{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+}
+nav a{
+    color: #333;
+    text-decoration: none;
+}
+
+@media (min-width: 992px){
+    #navbarMenu{
+        display: none!important;
+        text-align: right;
+    }
+}
+@media (min-width:992px){
+    .not-visible-sm{
+        display: none;
+    }
+}
+.collapse{
+    border: 0.2px solid rgb(224, 221, 221) ;
+    margin-top: 10px;
+}
+.nav-link a:hover{
+    color: rgb(112, 112, 112);
+    opacity: 0.5;
+}
