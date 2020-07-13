@@ -93,11 +93,71 @@ nav a{
 
 }
 
-.screenshot a:hover{
+.airbnb a:hover{
     padding:40px;
     transition: all;
     transition-timing-function: ease-in-out;
-    transition-delay: 0.2s;
+    transition-delay: 0.4s;
     transition-duration: 1s;
-    opacity:0.5;
+    opacity:0.1;
+}
+
+.transition-airbnb{
+    visibility: hidden;
+    color: #333;
+    position: absolute;
+    bottom: 90px;
+    width: 181px;
+    height: 45px;
+    font-size:30px;
+    text-align: center;
+    right: 224px;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.8s;
+    transition-duration: 1s;
+  
+}
+.airbnb-caption{
+    font-size: 30px;
+    visibility:hidden;
+    text-transform: uppercase;
+}
+.airbnb:hover .airbnb-caption {
+    visibility: visible;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.8s;
+    transition-duration: 1s;
+
+}
+
+.caption-apple{
+    position: absolute;
+    text-transform: uppercase;
+}
+.transition-apple{
+    position: absolute;
+    bottom: 137px;
+    right: 336px;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.8s;
+    transition-duration: 1s;
+    visibility: hidden;
+    color: #333;
+  
+}
+.apple:hover .caption-apple{
+    visibility: visible;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.8s;
+    transition-duration: 1s;
+
+
+}
+.apple a:hover{
+        padding:40px;
+        transition: all;
+        transition-timing-function: ease-in-out;
+        transition-delay: 0.4s;
+        transition-duration: 1s;
+        opacity:0.1;
 }
