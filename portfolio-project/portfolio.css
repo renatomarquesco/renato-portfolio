@@ -278,7 +278,7 @@ nav a{
 }
 .social-media-icon{
     padding-top:0;
-    margin-left: 95px;
+    margin-left: 26px;
 }
 .list-item{
     margin-top: 65px;
@@ -290,4 +290,30 @@ nav a{
     text-transform: uppercase;
     font-size: 22px;
     font-family: 'Oswald', sans-serif;
+}
+
+@media (max-width:992px){
+    .map{
+        width:100%;
+        height:300px;
+    }
+}
+
+@media (max-width:992px){
+    .social-list li {
+        display: inline-flex;
+        margin-right: 20px;
+        
+    }
+}
+@media (max-width:992px){
+.social-media-icon{
+    padding-top:0;
+    margin-left: 0px;
+}
+@media (max-width:992px){
+    .social-media-title{
+    margin-bottom: -47px;
+    margin-top: 35px;
+    }
 }
