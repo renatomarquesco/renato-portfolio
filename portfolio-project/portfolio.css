@@ -1,128 +1,154 @@
+body{
+    overflow-x: hidden;
+}
 
-nav{
+nav {
     font-size: 18px;
     font-weight: 400;
     font-family: 'Oswald', sans-serif;
 }
-nav a{
+
+nav a {
     color: #333;
     text-decoration: none;
 }
 
-@media (min-width: 992px){
-    #navbarMenu{
-        display: none!important;
+.navbar-expand-lg{
+    background-color: white;
+    
+
+}
+
+@media (min-width: 992px) {
+    #navbarMenu {
+        display: none !important;
         text-align: right;
     }
 }
-@media (min-width:992px){
-    .visible-sm{
+
+@media (min-width:992px) {
+    .visible-sm {
         display: none;
     }
 
 }
-@media (max-width:992px){
-    .not-visible-sm{
+
+@media (max-width:992px) {
+    .not-visible-sm {
         display: none;
     }
 }
-.collapse{
-    border: 0.2px solid rgb(224, 221, 221) ;
+
+#about p{
+    text-align: justify;
+}
+
+.collapse {
+    border: 0.2px solid rgb(224, 221, 221);
     margin-top: 10px;
 }
-.nav-link a:hover{
+
+.nav-link a:hover {
     color: rgb(112, 112, 112);
     opacity: 0.5;
 }
-.about-me{
+
+.about-me {
     text-align: justify;
     color: #333;
     font-size: 20px;
     font-weight: 300;
     font-family: 'Oswald', sans-serif;
     border-right: 0.2px dotted rgb(207, 205, 205);
-   
+
 }
 
-@media(max-width:992px){
-    .about-me{
+@media(max-width:992px) {
+    .about-me {
         border-right: none;
     }
 }
 
-.row1{
+.row1 {
     border: 0.2px solid rgb(207, 205, 205);
     padding: 15px;
 }
 
-@media(max-width:992px){
-    .row1{
-        border:none;
+@media(max-width:992px) {
+    .row1 {
+        border: none;
     }
 }
-.about-me h1{
+
+.about-me h1 {
     text-transform: uppercase;
 }
 
-.profile{
+.profile {
     border-radius: 03px;
     opacity: 0.7;
-    margin-top:9px;
-    margin-left:7px;
+    margin-top: 9px;
+    margin-left: 7px;
 }
 
-@media(max-width:992px){
-    .profile{
-        margin-left:0;
+@media(max-width:992px) {
+    .profile {
+        margin-left: 0;
     }
 }
-#projects{
+
+#projects {
     margin-bottom: 25px;
     margin-top: 90px;
     padding-left: 12px;
 }
-#projects h1{
+
+#projects h1 {
     color: #333;
     font-size: 2.5rem;
     font-weight: 500;
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
 }
-.screenshot{
-    border:none;
-    padding:20px;
+
+.screenshot {
+    border: none;
+    padding: 20px;
 
 }
 
-.airbnb a:hover{
-    padding:40px;
+.airbnb a:hover {
+    padding: 40px;
     transition: all;
     transition-timing-function: ease-in-out;
     transition-delay: 0.4s;
     transition-duration: 1s;
-    opacity:0.1;
+    opacity: 0.1;
 }
 
-.transition-airbnb{
+.transition-airbnb {
     visibility: hidden;
     color: #333;
     position: absolute;
     bottom: 70px;
     width: 181px;
     height: 45px;
-    font-size:30px;
+    font-size: 30px;
     text-align: center;
     right: 224px;
     transition-timing-function: ease-in-out;
     transition-delay: 0.8s;
     transition-duration: 1s;
-  
+
 }
-.airbnb-caption{
+
+.airbnb-caption {
     font-size: 30px;
-    visibility:hidden;
+    visibility: hidden;
     text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
 }
+
 .airbnb:hover .airbnb-caption {
     visibility: visible;
     transition-timing-function: ease-in-out;
@@ -131,11 +157,14 @@ nav a{
 
 }
 
-.caption-apple{
+.caption-apple {
+    width:100px;
     position: absolute;
     text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
 }
-.transition-apple{
+
+.transition-apple {
     position: absolute;
     bottom: 110px;
     right: 336px;
@@ -144,9 +173,10 @@ nav a{
     transition-duration: 1s;
     visibility: hidden;
     color: #333;
-  
+
 }
-.apple:hover .caption-apple{
+
+.apple:hover .caption-apple {
     visibility: visible;
     transition-timing-function: ease-in-out;
     transition-delay: 0.8s;
@@ -154,43 +184,39 @@ nav a{
 
 
 }
-.apple a:hover{
-        padding:40px;
-        transition: all;
-        transition-timing-function: ease-in-out;
-        transition-delay: 0.4s;
-        transition-duration: 1s;
-        opacity:0.1;
-}
-.row2{
-    border-right: 0.2px solid rgb(207, 205, 205);
-    border-top: 0.2px solid rgb(207, 205, 205);
-    border-left: 0.2px solid rgb(207, 205, 205);
+
+.apple a:hover {
+    padding: 40px;
+    transition: all;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.4s;
+    transition-duration: 1s;
+    opacity: 0.1;
 }
 
-.row3{
-    border-right: 0.2px solid rgb(207, 205, 205);
-    border-bottom: 0.2px solid rgb(207, 205, 205);
-    border-left: 0.2px solid rgb(207, 205, 205);
-}
 
-@media(max-width:992px){
-    .row2{
-        border:none;
-    }
-}
-@media(max-width:992px){
-    .row3{
-        border:none;
+
+@media(max-width:992px) {
+    .row2 {
+        border: none;
     }
 }
 
-.caption-newsweek{
+@media(max-width:992px) {
+    .row3 {
+        border: none;
+    }
+}
+
+.caption-newsweek {
+    width:100px;
     position: absolute;
     text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
 
 }
-.transition-newsweek{
+
+.transition-newsweek {
     position: absolute;
     bottom: 115px;
     right: 370px;
@@ -200,9 +226,10 @@ nav a{
     visibility: hidden;
     color: #333;
     text-align: center;
-  
+
 }
-.newsweek:hover .caption-newsweek{
+
+.newsweek:hover .caption-newsweek {
     visibility: visible;
     transition-timing-function: ease-in-out;
     transition-delay: 0.8s;
@@ -210,22 +237,25 @@ nav a{
 
 
 }
-.newsweek a:hover{
-        padding:40px;
-        transition: all;
-        transition-timing-function: ease-in-out;
-        transition-delay: 0.4s;
-        transition-duration: 1s;
-        opacity:0.1;
+
+.newsweek a:hover {
+    padding: 40px;
+    transition: all;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.4s;
+    transition-duration: 1s;
+    opacity: 0.1;
 }
 
-.caption-clock{
+.caption-clock {
     position: absolute;
     text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
 
 
 }
-.transition-clock{
+
+.transition-clock {
     position: absolute;
     bottom: 115px;
     right: 337px;
@@ -235,9 +265,10 @@ nav a{
     visibility: hidden;
     color: black;
     text-align: center;
-  
+
 }
-.clock:hover .caption-clock{
+
+.clock:hover .caption-clock {
     visibility: visible;
     transition-timing-function: ease-in-out;
     transition-delay: 0.8s;
@@ -245,13 +276,14 @@ nav a{
 
 
 }
-.clock a:hover{
-        padding:40px;
-        transition: all;
-        transition-timing-function: ease-in-out;
-        transition-delay: 0.4s;
-        transition-duration: 1s;
-        opacity:0.1;
+
+.clock a:hover {
+    padding: 40px;
+    transition: all;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.4s;
+    transition-duration: 1s;
+    opacity: 0.1;
 }
 
 .caption-sm {
@@ -262,92 +294,143 @@ nav a{
     font-size: 18px;
 }
 
-.caption-sm a{
+.caption-sm a {
     text-decoration: none;
     color: #333;
+    font-family: 'Oswald', sans-serif;
 }
-@media(min-width:992px){
-    .caption-sm{
+
+@media(min-width:992px) {
+    .caption-sm {
         display: none;
     }
 }
-.last-row{
+
+.last-row {
     border: 0.2px solid rgb(207, 205, 205);
     padding: 30px;
     margin-bottom: 50px;
 
 }
 
-@media(max-width:992px){
-    .last-row{
-        border:none;
+@media(max-width:992px) {
+    .last-row {
+        border: none;
     }
 }
 
-#contact{
+.tools-row{
+    color: #333;
+    border: 0.2px solid rgb(207, 205, 205);
+    padding: 30px;
+}
+
+.tools-row li{
+    margin-top:10px;
+    color:#333;
+    font-weight: 300;
+    font-family: 'Oswald', sans-serif;
+}
+#skills h1{
+    color: #333;
+    font-size: 2.5rem;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    margin-top: 60px;
+}
+
+#contact {
     margin-bottom: 25px;
     margin-top: 90px;
-    padding-left: 12px;
+    padding-left: 0px;
 }
-#contact h1{
+
+#contact h1 {
     color: #333;
     font-size: 2.5rem;
     font-weight: 500;
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
 }
-.social-media-icon{
-    padding-top:0;
+
+.social-media-icon {
+    padding-top: 0;
     margin-left: 26px;
 }
-.list-item{
+
+.list-item {
     margin-top: 65px;
 }
-.facebook-icon{
+
+.facebook-icon {
     padding-top: 10px;
 }
-.social-media-title h3{
+
+.social-media-title h3 {
     text-transform: uppercase;
     font-size: 22px;
     font-family: 'Oswald', sans-serif;
+    margin-left: 22px;
 }
 
-.footer{
-    height:300px;
-    background-color: rgb(207, 205, 205);
-    font-size: 16px;
+.footer {
+    background-color: rgb(240, 240, 240);
+    
     font-family: 'Oswald', sans-serif;
-    color: darkgray;
+    font-weight: lighter;
+    color: rgb(163, 162, 162);
+    padding: 10px;
 }
-footer{
-    border: 0.2px solid rgb(207, 205, 205);
-    padding: 30px;
+.footer a{
+    text-decoration: none;
+    color: rgb(97, 96, 96);
+    font-size: 14px;
+
 }
 
-@media (max-width:1024px){
-    .map{
-        width:100%;
-        height:300px;
+
+
+@media (max-width:1200px) {
+    .map {
+        width: 100%;
+        height: 420px;
     }
 }
 
-@media (max-width:1024px){
+@media (max-width:1024px) {
     .social-list li {
         display: inline-flex;
-        margin-right: 20px;
-        
+        margin-right: 10px;
+        margin-left: 10px;
+
     }
-}
-@media (max-width:1024px){
-.social-media-icon{
-    padding-top:0;
-    margin-left: 0px;
 }
 
-}
-@media (max-width:1024px){
-    .social-media-title{
-    margin-bottom: -47px;
-    margin-top: 35px;
+@media (max-width:1024px) {
+    .social-media-icon {
+        padding-top: 0;
+        margin-left: 0px;
     }
+
 }
+
+@media (max-width:1024px) {
+    .social-media-title {
+        margin-bottom: -47px;
+        margin-top: 35px;
+    }
+
+    .tools-row{
+        border:none;
+        padding: 5px;
+    }
+
+    .tools-row li{
+        border: none;
+    }
+
+}
+
+
